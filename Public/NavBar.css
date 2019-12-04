@@ -1,0 +1,23 @@
+.Icon {
+  width: 150px;
+}
+.navbar {
+  background-color: #fffffe;
+}
+.GroupIcon i {
+  font-size: 18pt;
+  color: #f8e9a1;
+}
+
+.GroupIcon div {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-color: #f8e9a1;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+}
