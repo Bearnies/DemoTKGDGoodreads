@@ -1,0 +1,70 @@
+.content {
+  width: 80%;
+  float: right;
+  margin-top: 30px;
+}
+
+.Cover {
+  height: 150px;
+  margin: 2px;
+}
+
+.TableGroupIcon i {
+  font-size: 18pt;
+  color: darkgray;
+}
+
+.TableGroupIcon div.Setting {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-color: darkgray;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+}
+
+.TableGroupIcon div.Display.Selected {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-color: darkgray;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+}
+
+.TableGroupIcon div.Display {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+}
+
+.TableGroupIcon p {
+  font-size: 15pt;
+}
+
+.Search-Bar {
+  margin-left: 400px;
+}
+
+.BookShelf {
+  margin-top: 30px;
+  float: left;
+  width: 200px;
+}
+
+.BookShelf .Options {
+  width: 200px;
+}
+.BookShelf .SideBar {
+  width: 200px;
+}
