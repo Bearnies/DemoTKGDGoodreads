@@ -25,3 +25,10 @@ function SeeMoreReview(e) {
     isTrucate = true;
   }
 }
+
+function WantToRead(e) {
+  var target = e.target;
+  $(target)
+    .addClass("btn-light text-warning font-weight-bold")
+    .removeClass("btn-success border-right");
+}
