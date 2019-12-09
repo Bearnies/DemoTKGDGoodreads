@@ -31,6 +31,18 @@
   <body>
     <div>
       <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div>
+          <button
+            class="btn btn-light mr-2"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseExample4"
+            aria-expanded="false"
+            aria-controls="collapseExample4"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
         <a class="navbar-brand" href="#"
           ><img class="Icon" src="../Public/download.png"
         /></a>
@@ -118,9 +130,9 @@
         </div>
       </nav>
 
-      <div class="BookShelf">
+      <div class="BookShelf collapse" id="collapseExample4">
         <div
-          class="btn-group-vertical SideBar mt-1 border-bottom border-light"
+          class="btn-group-vertical SideBar pb-1 border-bottom border-secondary"
           role="group"
           aria-label="Basic example"
         >
@@ -157,43 +169,97 @@
           role="group"
           aria-label="Basic example"
         >
-          <button type="button" class="btn btn-secondary">
-            Reading Activity
+          <button
+            class="btn btn-secondary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseExample1"
+            aria-expanded="false"
+            aria-controls="collapseExample1"
+          >
+            Users Activity&nbsp;&nbsp;<i class="fas fa-sort-down"></i>
           </button>
-          <button type="button" class="btn btn-secondary">Kindle Notes</button>
-          <button type="button" class="btn btn-secondary">
-            Reading Challenge
-          </button>
-          <button type="button" class="btn btn-secondary">
-            Years in Book
-          </button>
-          <button type="button" class="btn btn-secondary">
-            Reading Stats
-          </button>
+          <div class="collapse" id="collapseExample1">
+            <div
+              class="btn-group-vertical Options "
+              role="group"
+              aria-label="Basic example"
+            >
+              <button type="button" class="btn btn-light">
+                Reading Activity
+              </button>
+              <button type="button" class="btn btn-light">
+                Kindle Notes
+              </button>
+              <button type="button" class="btn btn-light">
+                Reading Challenge
+              </button>
+              <button type="button" class="btn btn-light">
+                Years in Book
+              </button>
+              <button type="button" class="btn btn-light">
+                Reading Stats
+              </button>
+            </div>
+          </div>
         </div>
         <div
           class="btn-group-vertical SideBar mt-1 pb-1 border-top border-bottom border-secondary"
           role="group"
           aria-label="Basic example"
         >
-          <h6 class="ml-3">Add books</h6>
-          <button type="button" class="btn btn-secondary">
-            Recomendation
+          <button
+            class="btn btn-secondary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseExample2"
+            aria-expanded="false"
+            aria-controls="collapseExample2"
+          >
+            Add books&nbsp;&nbsp;<i class="fas fa-sort-down"></i>
           </button>
-          <button type="button" class="btn btn-secondary">Explore</button>
+          <div class="collapse" id="collapseExample2">
+            <div
+              class="btn-group-vertical Options "
+              role="group"
+              aria-label="Basic example"
+            >
+              <button type="button" class="btn btn-light">
+                Recomendation
+              </button>
+              <button type="button" class="btn btn-light">Explore</button>
+            </div>
+          </div>
         </div>
         <div
           class="btn-group-vertical SideBar mt-1 border-top border-bottom border-secondary"
           role="group"
           aria-label="Basic example"
         >
-          <h6 class="ml-3">Tools</h6>
-          <button type="button" class="btn btn-secondary">
-            Owned Books
+          <button
+            class="btn btn-secondary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseExample3"
+            aria-expanded="false"
+            aria-controls="collapseExample3"
+          >
+            Tools&nbsp;&nbsp;<i class="fas fa-sort-down"></i>
           </button>
-          <button type="button" class="btn btn-secondary">
-            Find duplicates
-          </button>
+          <div class="collapse" id="collapseExample3">
+            <div
+              class="btn-group-vertical Options "
+              role="group"
+              aria-label="Basic example"
+            >
+              <button type="button" class="btn btn-light">
+                Owned Books
+              </button>
+              <button type="button" class="btn btn-light">
+                Find duplicates
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -269,7 +335,7 @@
               <td>
                 <div class="dropdown">
                   <button
-                    class="btn btn-light dropdown-toggle"
+                    class="btn btn-primary dropdown-toggle"
                     type="button"
                     id="dropdownMenuButton"
                     data-toggle="dropdown"
@@ -304,7 +370,7 @@
               <td>
                 <div class="dropdown">
                   <button
-                    class="btn btn-light dropdown-toggle"
+                    class="btn btn-primary dropdown-toggle"
                     type="button"
                     id="dropdownMenuButton"
                     data-toggle="dropdown"

@@ -6,13 +6,13 @@
 }
 .GroupIcon i {
   font-size: 18pt;
-  color: #f8e9a1;
+  color: forestgreen;
 }
 
 .GroupIcon div {
   margin-left: 5px;
   margin-right: 5px;
-  border-color: #f8e9a1;
+  border-color: forestgreen;
   border-width: 2px;
   border-style: solid;
   border-radius: 30px;
