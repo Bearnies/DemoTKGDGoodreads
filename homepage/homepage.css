@@ -1,0 +1,16 @@
+.signButton{
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.homeBackground{
+    margin-top: -60px;
+    width: 100%;
+}
+
+.searchBarLocate{
+    top: 55vh;
+    left: 70vh;
+    position: absolute;
+}
