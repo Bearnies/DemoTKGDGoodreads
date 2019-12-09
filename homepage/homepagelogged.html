@@ -10,8 +10,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    
-    <link rel="stylesheet" href="../Public/NavBar.css" />
+
 
     <!-- Bootstrap CSS -->
     <link
@@ -32,25 +31,103 @@
     <link rel="stylesheet" media="all" href="../Goodreads_Homepage_files/goodreads-da4bf20186dd20d306d5b08053c7a3c2.css">
 
     <link rel="stylesheet" media="screen" href="../Goodreads_Homepage_files/signed_out_hp.css">
-  <link rel="stylesheet" media="screen" href="../Goodreads_Homepage_files/signed_out_hp-373245cd7938f7c62dded76afd81bb1e.css">
+    <link rel="stylesheet" media="screen" href="../Goodreads_Homepage_files/signed_out_hp-373245cd7938f7c62dded76afd81bb1e.css">
 
 
   <link rel="stylesheet" media="screen" href="../Goodreads_Homepage_files/common_images-670d97636259cafc355c94fc43e871d7.css">
-
+  <link rel="stylesheet" href="../My-books/style.css" />
+  <link rel="stylesheet" href="../Public/NavBar.css" />
+     
   <title>Homepage</title>
 
-     
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light justify-content-end" style="background-color: transparent;">
-    <a href="../useractions/signin.html" style="text-decoration: none;">
-    <button class="btn btn-success my-2 my-sm-0 signButton" action="../useraction/signin.html">
-        Sign in
-      </button></a>
-      <a href="../useractions/signup.html" style="text-decoration: none;">
-      <button class="btn btn-outline-success my-2 my-sm-0 signButton">
-        Sign up 
-      </button></a>
+  <nav class="navbar navbar-expand-lg navbar-light shadow">
+    <a class="navbar-brand" href="#"
+      ><img class="Icon" src="../Public/download.png"
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto" style="font-size: 15px;">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold" href="#">My Books</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Browse
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Recommendations</a>
+            <a class="dropdown-item" href="#">Choice Awards</a>
+            <a class="dropdown-item" href="#">Giveaways</a>
+            <a class="dropdown-item" href="#">New Releases</a>
+            <a class="dropdown-item" href="#">Lists</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Community
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Groups</a>
+            <a class="dropdown-item" href="#">Discussions</a>
+            <a class="dropdown-item" href="#">Ask the Author</a>
+            <a class="dropdown-item" href="#">Quizzes</a>
+            <a class="dropdown-item" href="#">Events</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+      <div class="GroupIcon d-flex flex-row">
+        <div><i class="fas fa-bell"></i></div>
+        <div><i class="far fa-comments"></i></div>
+        <div><i class="fas fa-envelope"></i></div>
+        <div><i class="fas fa-users"></i></div>
+        <div><i class="fas fa-user-circle"></i></div>
+      </div>
+    </div>
   </nav>
     <img src="./images/81HxJ55dOkL1.png" alt="" class="homeBackground"/>
     <form class="form-inline my-2 my-lg-0 searchBarLocate">
