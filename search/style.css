@@ -68,5 +68,7 @@
 .BookShelf .SideBar {
   width: 200px;
 }
-
+.checked {
+  color: orange;
+}
 
