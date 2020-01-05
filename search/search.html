@@ -97,17 +97,23 @@
               </div>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <form class="form-inline my-2 my-lg-0 searchBarLocate">
             <input
-              class="form-control mr-sm-2"
+              class="form-control"
               type="search"
-              placeholder="Search"
+              placeholder="Search for books"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
+            <div class="input-group-append">
+              
+              <button class="btn btn-success" type="button">
+                  <a href="../search/search.html">
+                  <i class="fa fa-search" style="color:white"></i></a>
+              </button></a>
+              
+            </div>
           </form>
+          &nbsp;
           <div class="GroupIcon d-flex flex-row">
             <div><i class="fas fa-bell"></i></div>
             <div><i class="far fa-comments"></i></div>
@@ -119,7 +125,7 @@
       </nav>
 
       <div class="container mt-lg-3">
-        <h1>Search result</h1>
+        <h1>Search result(s)</h1>
         <div class="d-flex flex-row">
           <!--<div class="flex-grow-1 Search-Bar">
             <form class="form-inline my-2 my-lg-0">
