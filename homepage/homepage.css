@@ -1,16 +1,20 @@
-.signButton{
-    margin: 10px;
-    height: 40px;
-    width: 100px;
+.signButton {
+  margin: 10px;
+  height: 40px;
+  width: 100px;
 }
 
-.homeBackground{
-    margin-top: -60px;
-    width: 100%;
+.homeBackground {
+  margin-top: -60px;
+  width: 100%;
 }
 
-.searchBarLocate{
-    top: 55vh;
-    left: 70vh;
-    position: absolute;
+.searchBarLocate {
+  top: 55vh;
+  left: 30%;
+  position: absolute;
+}
+
+.GroupIcon div i {
+  line-height: 1.3;
 }
